@@ -1,0 +1,20 @@
+# Q1. Purpose of exception handling in Python? Role of try and except.
+Exception handling is used to handle runtime errors so that the 
+program does not crash suddenly. The try block contains the code that
+might cause an error, and the except block runs if that error actually
+happens. This way we can show a proper message instead of the program
+stopping.
+
+# Q2. Difference between Class and Object
+A class is like a blueprint or design, it just defines what
+properties and functions something will have. An object is the actual
+thing made from that blueprint, with real values.
+Example: Class = Car (brand, color),
+Object = an actual car like "Honda, Red"
+
+# Q3. File modes in Python
+r - read mode, file should already exist, used to just read data
+w - write mode, creates new file, if file already exists it erases
+old content
+a - append mode, adds new data at the end of file without deleting
+old data
